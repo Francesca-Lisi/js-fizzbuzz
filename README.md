@@ -18,6 +18,10 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
 
 ## Svolgimento:
-1. individuare i dati presenti nella consegna
-2. scrivere la logica per selezionare deteriminati numeri
-3. associare il messaggio che verrà visualizzato come output
+1. Ho individuato due variabili per i numeri multipli di 3 o 5 ed ho assegnato a ciascuna il valore in stringa richiesto dalla consegna.
+
+2. Ho impostato il ciclo in modo che partisse da 1 e si ripetesse per 100 volte, incrementando di 1 ogni volta.
+
+3. All'interno del ciclo ho inserito le istruzioni condizionali affinchè, attraverso moduli (%) e operatori logici (&&) potessi individuare i numeri che corrispondevano alle richieste della traccia, in modo da associarvi la variabile *output* che devono mostrare. 
+
+4. Inserisco nel ciclo (dopo le istruzioni condizionali) il *console.log(output)* per stampare il risultato.
