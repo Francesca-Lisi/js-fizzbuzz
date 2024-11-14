@@ -1,24 +1,22 @@
-// Scrivi un programma che stampi i numeri da 1 a 100, 
-// per i multipli di 3 stampi “Fizz” al posto del numero
-// per i multipli di 5 stampi Buzz.
-// Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
-
+//DATI RICAVATI DALLA TRACCIA
 let multipliTre = 'Fizz';
 let multipliCinque = 'Buzz';
+let output;
 
+//LOGICA
 for (let i = 1; i <= 100; i++) {
 
   if((i % 3 === 0) && (i % 5 === 0)){
-    console.log(`${multipliTre}${multipliCinque}`);
+    output = `${multipliTre}${multipliCinque}`;
   } else if (i % 5 === 0){
-    console.log(multipliCinque);
+    output = multipliCinque;
   } else if (i % 3 === 0){
-    console.log(multipliTre);
+    output= multipliTre;
   } else {
-    console.log(i);
-    
+    output = i;
   }
 
-
-  
+//STAMPO IL MIO OUTPUT
+console.log(output)
 }
+
